@@ -4,15 +4,20 @@
     margin: 0;
 }
 
+body{
+    background-image:url("../img/animado-animales.jpg") no-repeat center top;
+}
 .contenedor {
     height: 768px;
     margin: 0 auto;
+    padding-left:50px;
+    padding-right: 50px;
     /*Margin 0 auto se utiliza para centrar el div */
     background-color: white;
 }
 
 .fixed1 {
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 
@@ -32,11 +37,16 @@
     position: absolute;
     right: 100px;
     bottom: 10px;
+
 }
 
 .img-responsive {
     height: auto;
     max-width: 100%;
+}
+
+.divnav{
+    width:100%;
 }
 
 nav ul li {
@@ -46,12 +56,35 @@ nav ul li {
     border: 1px solid #1DAEEC;
     background-color: #1DAEEC;
     margin: 3px;
-    line-height: 250%;
+    line-height: 20px;
     text-transform: uppercase;
     padding: 5px;
+    border-radius: 5px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
+}
+
+.busqueda{
+    width:100%;
+    margin-bottom:15px;
+    float: right;
+}
+
+.buscador{
+    color:#1DAEEC;
+    line-height: 20px;
+    border-radius: 5px;
+    float:right;
+    line-height:30px;
+    font-size:18px;
+}
+
+
+.navsecond{
+    width:100%;
+    height:72px;
+    background-color:red; 
 }
