@@ -2,9 +2,11 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>La jungla de timo</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/funciones.js">
+    </script>
 </head>
 
 <body>
@@ -13,11 +15,11 @@
             <div class="header">
                 <div class="logo">
                     <a href="index.html">
-                        <img class="img-responsive" src="img/logo-timo.png"></a>
+                        <img class="img-responsive" src="img/logo-timo.png" /></a>
                 </div>
                 <div class="navheader">
                     <div class="busqueda">
-                        <input class="buscador" type="text" value="Buscar">
+                        <input class="buscador" type="text" value="" placeholder="Buscar" />
                     </div>
                     <div class="divnav">
                         <nav>
@@ -31,7 +33,6 @@
                                 <li><a href="">Blog</a></li>
                             </ul>
                         </nav>
-
                     </div>
                 </div>
             </div>
@@ -40,18 +41,109 @@
             <div class="navsecond">
                 <nav>
                     <ul>
-                        <li><a href="">Perros</a>
+                        <li class="style-li">
+                            <a href="">Perros</a>
                             <ul class="lista-desplegable">
                                 <li><a href="">Razas</a></li>
+                                <li><a href="">Nutrición y premios</a></li>
+                                <li><a href="">Accesorios</a></li>
+                                <li><a href="">Juguetes</a></li>
+                                <li><a href="">Entrenamiento</a></li>
+                                <li><a href="">Habitat</a></li>
+                                <li><a href="">Textil</a></li>
+                                <li><a href="">Dispensadores</a></li>
+                                <li><a href="">Belleza</a></li>
+                                <li><a href="">Salud</a></li>
+                                <li><a href="">Educativo</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Gatos</a></li>
-                        <li><a href="">Roedores</a></li>
-                        <li><a href="">Aves</a></li>
-                        <li><a href="">Reptiles</a></li>
-                        <li><a href="">Peces</a></li>
-                        <li><a href="">Exóticos</a></li>
-                        <li><a href="">Conejos</a></li>
+                        <li class="style-li">
+                            <a href="">Gatos</a>
+                            <ul class="lista-desplegable">
+                                <li><a href="">Razas</a></li>
+                                <li><a href="">Nutrición</a></li>
+                                <li><a href="">Accesorios</a></li>
+                                <li><a href="">Juguetes</a></li>
+                                <li><a href="">Collares</a></li>
+                                <li><a href="">Habitat</a></li>
+                                <li><a href="">Dispensadores</a></li>
+                                <li><a href="">Belleza</a></li>
+                                <li><a href="">Salud</a></li>
+                                <li><a href="">Educativo</a></li>
+                            </ul>
+                        </li>
+                        <li class="style-li">
+                            <a href="">Roedores</a>
+                            <ul class="lista-desplegable">
+                                <li><a href="">Especies</a></li>
+                                <li><a href="">Nutrición y premios</a></li>
+                                <li><a href="">Hábitat y accesorios</a></li>
+                                <li><a href="">Textil</a></li>
+                                <li><a href="">Dispensadores</a></li>
+                                <li><a href="">Belleza</a></li>
+                                <li><a href="">Educativo</a></li>
+                            </ul>
+                        </li>
+                        <li class="style-li">
+                            <a href="">Aves</a>
+                            <ul class="lista-desplegable">
+                                <li><a href="">Especies</a></li>
+                                <li><a href="">Nutrición y premios</a></li>
+                                <li><a href="">Hábitat y accesorios</a></li>
+                                <li><a href="">Dispensadores</a></li>
+                                <li><a href="">Juguetes</a></li>
+                                <li><a href="">Salud</a></li>
+                            </ul>
+                        </li>
+                        <li class="style-li">
+                            <a href="">Reptiles</a>
+                            <ul class="lista-desplegable">
+                                <li><a href="">Especies</a></li>
+                                <li><a href="">Nutrición</a></li>
+                                <li><a href="">Hábitat y accesorios</a></li>
+                                <li><a href="">Dispensadores</a></li>
+                                <li><a href="">Decoración</a></li>
+                                <li><a href="">Iluminación</a></li>
+                                <li><a href="">Educativo</a></li>
+                            </ul>
+                        </li>
+                        <li class="style-li">
+                            <a href="">Peces</a>
+                            <ul class="lista-desplegable">
+                                <li><a href="">Especies</a></li>
+                                <li><a href="">Nutrición</a></li>
+                                <li><a href="">Hábitat y accesorios</a></li>
+                                <li><a href="">Filtros</a></li>
+                                <li><a href="">Iluminación</a></li>
+                                <li><a href="">Decoraciones</a></li>
+                                <li><a href="">Mantenimiento</a></li>
+                                <li><a href="">Educativo</a></li>
+                            </ul>
+                        </li>
+                        <li class="style-li">
+                            <a href="">Exóticos</a>
+                            <ul class="lista-desplegable">
+                                <li><a href="">Especies</a></li>
+                                <li><a href="">Nutrición</a></li>
+                                <li><a href="">Hábitat y accesorios</a></li>
+                                <li><a href="">Juguetes</a></li>
+                                <li><a href="">Dispensadores</a></li>
+                                <li><a href="">Salud</a></li>
+                                <li><a href="">Educativo</a></li>
+                            </ul>
+                        </li>
+                        <li class="style-li">
+                            <a href="">Conejos</a>
+                            <ul class="lista-desplegable">
+                                <li><a href="">Razas</a></li>
+                                <li><a href="">Nutrición y premios</a></li>
+                                <li><a href="">Hábitat y accesorios</a></li>
+                                <li><a href="">Textil</a></li>
+                                <li><a href="">Dispensadores</a></li>
+                                <li><a href="">Belleza</a></li>
+                                <li><a href="">Educativo</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -73,19 +165,82 @@
                         </ul>
                     </nav>
                 </div>
-
             </div>
             <div class="cuerpoderecha">
                 <div class="imagen-cambiante">
-                    <div class="imagen">
-
+                    <div id="imagen">
+                        <img class="imagen-slider" src="img/slider-1.jpg">
                     </div>
-                    <div class="slider">
+                    <button class="b-anterior" onclick="beforeImage()">-</button>
+                    <button class="b-siguiente" onclick="nextImage()">+</button>
+                    <div class="slider"></div>
+                    <script>
+                        var slider_content = document.getElementById('imagen');
 
-                    </div>
+                        var image = ["slider-1", "slider-2", "slider-3", "slider-4", "slider-5", "slider-6", "slider-7", "slider-8"];
+
+                        var i = image.length;
+
+                        function nextImage() {
+                            if (i < image.length) {
+                                i = i + 1;
+                                if (i == image.length) {
+                                    i = 1;
+                                }
+                            } else {
+                                i = 1;
+                            }
+                            slider_content.innerHTML = "<img src=img/" + image[i] + ".jpg>";
+                        }
+
+                        function beforeImage() {
+                            if (i < image.length + 1 && i > 1) {
+                                i = i - 1;
+                            } else {
+                                i = image.length;
+                            }
+                            slider_content.innerHTML = "<img class=\"imagen-slider\" imagen-slider src=img/" + image[i - 1] + ".jpg>";
+                        }
+                    </script>
                 </div>
-                <div>
-
+                <div class="categorias">
+                    <h1>Categorías</h1>
+                    <div class="categorias-lista">
+                        <ul>
+                            <li class="categorias-lista-li">
+                                <img src="img/perros.jpg">
+                                <h2>Perros</h2>
+                            </li>
+                            <li class="categorias-lista-li">
+                                <img src="img/gatos.jpg">
+                                <h2>Gatos</h2>
+                            </li>
+                            <li class="categorias-lista-li">
+                                <img src="img/roedores.jpg">
+                                <h2>Roedores</h2>
+                            </li>
+                            <li class="categorias-lista-li">
+                                <img src="img/aves.jpg">
+                                <h2>Aves</h2>
+                            </li>
+                            <li class="categorias-lista-li">
+                                <img src="img/reptiles.jpg">
+                                <h2>Reptiles</h2>
+                            </li>
+                            <li class="categorias-lista-li">
+                                <img src="img/peces.jpg">
+                                <h2>Peces</h2>
+                            </li>
+                            <li class="categorias-lista-li">
+                                <img src="img/exoticos.jpg">
+                                <h2>Exóticos</h2>
+                            </li>
+                            <li class="categorias-lista-li">
+                                <img src="img/conejos.jpg">
+                                <h2>Conejos</h2>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
