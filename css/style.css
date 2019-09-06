@@ -5,7 +5,7 @@
 }
 
 .contenedor {
-    height: 1300px;
+    height: 1500px;
     margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -43,6 +43,8 @@
     height: auto;
     max-width: 100%;
 }
+
+.icono-buscar {}
 
 .divnav {
     width: 100%;
@@ -160,8 +162,9 @@
 
 .cuerpo {
     width: 100%;
-    height: 900px;
+    height: 1100px;
     display: flex;
+    margin-top: 10px;
 }
 
 .cuerpoizquierda {
@@ -209,6 +212,7 @@
 .imagen-slider {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .b-anterior {
@@ -235,6 +239,7 @@
 }
 
 .categorias {
+    margin-top: 15px;
     padding: 20px;
     height: 520px;
 }
@@ -275,6 +280,24 @@
     background-image: linear-gradient(orange, rgb(255, 68, 68), orange);
     font-weight: normal;
     border-radius: 5px;
+}
+
+.carrusel {
+    padding-left: 20px;
+    height: 110px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+}
+
+.carrusel-centrado {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.carrusel img {
+    width: 20%;
+    height: auto;
 }
 
 .pie {
